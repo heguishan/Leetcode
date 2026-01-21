@@ -9,3 +9,5 @@ class Solution:
             else:
                 curr = curr.next
         return dummy.next
+# 锚点：固定不变，用于最后返回链表头
+# 探针：移动遍历链表，进行删除操作
