@@ -4,3 +4,8 @@ print('Hello world!')
 print("i don't get it")
 
 # I want to test how to pull different .py to another repository again
+
+def one(s:str):
+    print(s)
+s = 'good'
+one(s)
