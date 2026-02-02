@@ -4,6 +4,8 @@ class Solution:
             s = 0
             while num:            # 把各位累加
                 s += num % 10
-                num //= 10
+                num = num // 10
             num = s               # 继续下一轮
         return num
+s = Solution()
+print(s.addDigits(12))
